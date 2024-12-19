@@ -1,4 +1,7 @@
 gitops-runtime:
+  app-proxy:
+    config:
+      cors: https://pre-prod.codefresh.io
   global:
     codefresh:
       accountId: 6654565c1d4fecaaf585bcf2
