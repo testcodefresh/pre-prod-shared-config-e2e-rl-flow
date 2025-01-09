@@ -15,7 +15,7 @@ gitops-runtime:
         className: nginx-internal
         enabled: true
         hosts:
-          - cf-e2e-rel-flow.rnd-sandbox.cf-infra.com
+          - cf-e2e-rel-flow.non-prod.cf-infra.com
         protocol: https
       name: test-date
   installer:
