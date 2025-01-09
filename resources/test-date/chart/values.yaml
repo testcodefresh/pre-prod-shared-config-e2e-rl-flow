@@ -12,7 +12,7 @@ gitops-runtime:
           key: token
     runtime:
       ingress:
-        className: nginx-internal
+        className: nginx
         enabled: true
         hosts:
           - alina-runtime.non-prod.cf-infra.com
