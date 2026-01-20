@@ -12,7 +12,7 @@ gitops-runtime:
           key: token
     runtime:
       ingress:
-        className: nginx
+        className: haproxy-ingress
         enabled: true
         hosts:
           - alina-runtime.non-prod.cf-infra.com
