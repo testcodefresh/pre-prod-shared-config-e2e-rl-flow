@@ -15,7 +15,7 @@ gitops-runtime:
         className: haproxy-ingress
         enabled: true
         hosts:
-          - cf-nrf-runtime.non-prod.cf-infra.com
+          - cf-nrf-runtime.rnd-sandbox.cf-infra.com
         protocol: https
       name: test-date
   installer:
